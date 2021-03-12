@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.netology'
+version '12.3.2021'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(":db")
+}
